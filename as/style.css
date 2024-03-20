@@ -1,0 +1,13 @@
+table, th , td, tr {
+border:1px solid rgb(0, 0, 0);
+border-collapse: collapse ;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(152, 162, 172);
+}
+
+tr:hover {
+  background-color: rgb(103, 159, 233); 
+}
+
