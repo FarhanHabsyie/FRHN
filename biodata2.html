@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      fieldset {
+        background-color: aqua;
+      }
+      label {
+        width: 100px;
+        display: inline-block;
+      }
+      .titik {
+        display: inline;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend><b>Biodata</b></legend>
+      <form action=""></form>
+      <label for="Nama">Nama</label>
+      <label class="titik">:</label>
+      <input
+        type="text"
+        id="nama"
+        value=""
+        placeholder="Nama lengkap"
+      /><br /><br />
+      <label for="Alamat">Alamat</label>
+      <label class="titik">:</label>
+      <textarea
+        type="text"
+        id="Alamat"
+        value=""
+        colplaceholder="Alamat lengkap"
+        cols="30"
+        rows="8"
+      ></textarea
+      ><br /><br />
+      <label for="TTL">TTL</label>
+      <label class="titik">:</label>
+      <input type="text" id="TTL" value="" placeholder="Kota kelaharian" />
+      <input type="date" /><br /><br />
+      <label for="jenis">Jenis Kelamin</label>
+      <label class="titik">:</label>
+      <input type="radio" id="JK" name="gender" />
+      <label for="JK">Laki_Laki</label>
+      <input type="radio" name="gender" />
+      <label for="JK">Perempuan</label><br /><br />
+      <label for="agama">Agama</label>
+      <label class="titik">:</label>
+      <select name="">
+        <option value="islam">islam</option>
+        <option value="kristen">kristen</option>
+        <option value="budha">budha</option>
+        <option value="katholik">katholik</option></select
+      ><br /><br />
+
+      <label for="hobby">Hobby</label>
+      <label class="titik">:</label>
+      <input type="checkbox" id="olahraga" />
+      <label for="olahraga">Olahraga</label>
+      <input type="checkbox" id="belajar" />
+      <label for="belajar">Belajar</label>
+      <input type="checkbox" id="komputer" />
+      <label for="komputer">Komputer</label>
+      <input type="checkbox" id="musik" />
+      <label for="musik">Musik</label>
+      <input type="checkbox" id="berenang" />
+      <label for="berenang">Merenang</label>
+      <input type="checkbox" id="masak" />
+      <label for="masak">Masak</label><br /><br />
+
+      <label for="motto">Motto</label>
+      <label class="titik">:</label>
+      <textarea
+        name="motto"
+        id="motto"
+        cols="30"
+        rows="8"
+        placeholder="Masukan motto anda disini"
+      ></textarea
+      ><br /><br />
+      <input type="reset" value="reset" />
+      <input type="button" value="submit" />
+    </fieldset>
+</form>
+  </body>
+</html>
