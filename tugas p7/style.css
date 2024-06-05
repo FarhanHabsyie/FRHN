@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name:example;
+    animation-duration: 2s;
+    
+}
+@keyframes example {
+    from {background-color:red;
+        
+    }
+    to {
+        background-color: blue;
+    }
+}
+
+.box2 {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(74, 151, 223)
+}
+.box2:hover {
+    width: 200px;
+    height: 200px;
+    transition: 10s;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(4, 33, 114)
+}
+.text {
+    color: aliceblue;
+    text-align: center;
+}
+.box3:hover {
+    transform: rotateX(150deg);
+}
